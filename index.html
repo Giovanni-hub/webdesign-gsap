@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" media="screen and (max-width: 1280px)" href="css/responsive.css" />
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+
+
+    <title>smiley</title>
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="smiley-nav">
+
+            <a onclick="demarrer('love')" href="#"><img src="img/smiley1.svg" alt="smiley"></a>
+
+            <a onclick="demarrer('happy')" href="#"><img src="img/smiley2.png" alt="smiley"></a>
+
+            <a onclick="demarrer('tongue')" href="#"><img src="img/smiley3.svg" alt="smiley"></a>
+
+            <a onclick="demarrer('sad')" href="#"><img src="img/smiley4.svg" alt="smiley"></a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="emoji"></div>
+        <div id="roue-dentee">
+            <img src="img/tool_1.png" alt="tool1" class="roue__1">
+            <img src="img/tool_2.png" alt="tool2" class="roue__2">
+            <img src="img/tool_3.png" alt="tool3" class="roue__3">
+            <img src="img/tool_4.png" alt="tool4" class="roue__4">
+        </div>
+        <div id="conveyor">
+            <img class="arm" src="img/conveyor_arm.png" alt="conveyor_arm">
+            <img class="arm2" src="img/conveyor_arm2.png" alt="conveyor_arm2">
+            <img class="base" src="img/conveyor_base.png" alt="conveyor_base">
+        </div>
+        <div id="belt-bloc">
+            <img class="belt1" src="img/conveyor_belt_line.png" alt="conveyor_belt">
+            <img class="belt2" src="img/conveyor_belt_line.png" alt="conveyor_belt">
+            <img class="belt3" src="img/conveyor_belt_line.png" alt="conveyor_belt">
+            <img class="belt4" src="img/conveyor_belt_line.png" alt="conveyor_belt">
+        </div>
+        <div id="machine">
+            <img id="control-system" src="img/control-system.png" alt="control-system">
+            <img id="lever" src="img/red_lever.png" alt="red_lever">
+            <a href="#" onclick="selectColor('red')" class="color-btn" id="color1"></a>
+            <a href="#" onclick="selectColor('green')" class="color-btn" id="color2"></a>
+        </div>
+
+        <!--<img src="img/lever.png" alt="lever">-->
+
+
+        <img src="img/funnel.png" class="funnel" alt="funnel">
+
+
+        </div>
+        <div class="emotion">
+            <div class="emotion__eyes">
+                <img src="img/happy_eyes.png" alt="happy-eyes" id="happy-eyes">
+                <img src="img/in-love_eyes.png" alt="love-eyes" id="love-eyes">
+                <img src="img/sad_eyes.png" alt="sad-eyes" id="sad-eyes">
+                <img src="img/tongue_eyes.png" alt="tongue_eyes" id="tongue-eyes">
+            </div>
+            <div class="emotion__mouth">
+                <img src="img/in-love_mouth.png" alt="in-love_mouth" id="love-mouth">
+                <img src="img/happy_mouth.png" alt="happy-mouth" id="happy-mouth">
+                <img src="img/tongue_mouth.png" alt="happy-eyes" id="tongue-mouth">
+                <img src="img/sad_mouth.png" alt="sad-eyes" id="sad-mouth">
+            </div>
+        </div>
+    </main>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
+
+</html>

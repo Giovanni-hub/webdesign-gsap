@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: 0;
+}
+
+header {}
+
+.smiley-nav {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100px;
+    list-style-type: none;
+    background-color: #9C969E;
+    border: 5px solid orange;
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.smiley-nav img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+main {
+    width: 1250px;
+    height: 650px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#emoji {
+    position: absolute;
+    bottom: 3px;
+    left: 10px;
+    width: 65px;
+    height: 65px;
+    background-color: #F6CC4D;
+    border-radius: 100px;
+}
+
+#roue-dentee {
+    position: absolute;
+    left: 50px;
+    right: 100px;
+    width: 100px;
+    display: flex;
+}
+
+#roue-dentee img {
+    width: 80px;
+}
+
+#conveyor {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#conveyor .base {
+    position: absolute;
+    bottom: -29px;
+    left: 261px;
+    width: 140px;
+    z-index: 10;
+}
+
+#conveyor .arm {
+    position: absolute;
+    bottom: 204px;
+    left: 0;
+    z-index: 20;
+}
+
+#conveyor .arm2 {
+    position: absolute;
+    bottom: 358px;
+    left: 16px;
+    z-index: 5;
+    height: 50px;
+}
+
+.funnel {
+    position: absolute;
+    top: 0;
+    left: 600px;
+    width: 100px;
+    z-index: 20;
+    background-color: white;
+}
+
+#machine {
+    position: absolute;
+    bottom: 0;
+    left: 800px;
+}
+
+#control-system {
+    position: absolute;
+    bottom: 0;
+    z-index: 20;
+    width: 250px;
+}
+
+#lever {
+    position: absolute;
+    bottom: 226px;
+    left: 153px;
+    width: 100px;
+    z-index: 10;
+}
+
+.color-btn {
+    width: 20px;
+    height: 20px;
+    display: block;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 120px;
+    left: 185px;
+    z-index: 30;
+    border: 1px solid #809CED;
+}
+
+#color2 {
+    bottom: 76px;
+}
+
+#belt-bloc {
+    position: absolute;
+    bottom: 0;
+    left: 450px;
+    height: 60px;
+}
+
+#belt-bloc img {
+    height: 100%;
+    position: absolute;
+    top: 0;
+}
+
+.belt1 {
+    left: 0;
+}
+
+.belt2 {
+    left: 228px;
+}
+
+.belt3 {
+    left: 500px;
+}
+
+.belt4 {
+    left: 700px;
+}
+
+.emotion {
+    position: absolute;
+    left: 600px;
+    z-index: 10;
+}
+
+.emotion__eyes img {
+    width: 48px;
+    position: absolute;
+    left: 0;
+}
+
+.emotion__mouth img {
+    width: 30px;
+    position: absolute;
+    left: 10px;
+}
